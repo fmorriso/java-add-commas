@@ -16,7 +16,7 @@ public class Main {
      * @param number - String containing a whole number with no punctuation.
      * @return String containing the same number with commas ever third digit.
      */
-    private static String addCommas(String number) {
+    public static String addCommas(String number) {
         if (number.length() <= 2) return number;
         String result = "";
         for (int i = number.length() - 1, count = 0; i >= 0; i--, count++) {
