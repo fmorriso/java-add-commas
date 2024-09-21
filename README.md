@@ -8,7 +8,7 @@ Write a method named _**addCommas**_ that accepts a string representing a number
 | Tool     |  Version |
 |:---------|---------:|
 | Java     | 22.0.2.0 |
-| Junit    |    5.9.1 |
+| JUnit    |    5.9.1 |
 | IntelliJ | 2024.2.1 |
 
 ## Change History
