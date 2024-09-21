@@ -21,7 +21,7 @@ public class Main {
         for (int i = number.length() - 1, count = 0; i >= 0; i--, count++) {
             result = number.charAt(i) + result;
             if (count == 2) {
-                result = new StringBuilder().append(",").append(result).toString();
+                result = "," + result;
                 count = -1;
             }
         }
