@@ -11,12 +11,12 @@ at every third position, starting from the right. For example, the call of ```ad
 
 ## Tools Used
 
-| Tool     |    Version |
-|:---------|-----------:|
-| Java     |   23.0.2.0 |
-| JUnit    |      5.9.1 |
-| IntelliJ | 2024.3.4.1 |
-| VSCode   |     1.98.0 |
+| Tool     |  Version |
+|:---------|---------:|
+| Java     | 24.0.0.0 |
+| JUnit    |   5.12.1 |
+| IntelliJ | 2024.3.5 |
+| VSCode   |   1.98.0 |
 
 ## Change History
 
@@ -24,3 +24,6 @@ at every third position, starting from the right. For example, the call of ```ad
 |:-----------|:-----------------------------|
 | 2024-09-20 | Initial creation             |
 | 2025-03-17 | Switch from GitLab to GitHub |
+| 2025-03-18 | upgrade to IntelliJ 2024.3.5 |
+| 2025-03-18 | upgrade to Java 24.0.0.0     |
+| 2025-03-21 | upgrade to JUnit 5.12.1      |

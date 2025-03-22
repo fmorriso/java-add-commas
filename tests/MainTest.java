@@ -10,37 +10,37 @@ class MainTest {
     @DisplayName("add commas to long number")
     void canAddCommasToLongNumber() {
         String rawNumber = "12345678";
-        assertEquals(Main.addCommas(rawNumber), "12,345,678");
+        assertEquals("12,345,678", Main.addCommas(rawNumber));
     }
 
     @Test
     @DisplayName("Can add commas to medium number")
     void canAddCommasToMediumNumber() {
         String rawNumber = "345678";
-        assertEquals(Main.addCommas(rawNumber), "345,678");
+        assertEquals("345,678", Main.addCommas(rawNumber));
     }
 
     @Test
     @DisplayName("Can add commas to short number")
     void canAddCommasToShortNumber() {
         String rawNumber = "123";
-        assertEquals(Main.addCommas(rawNumber), rawNumber);
+        assertEquals(rawNumber, Main.addCommas(rawNumber));
     }
 
     @Test
     @DisplayName("Can add commas to various different numbers")
     void canAddCommas() {
         assertAll(
-                () -> assertEquals(Main.addCommas(""), ""),
-                () -> assertEquals(Main.addCommas("1"), "1"),
-                () -> assertEquals(Main.addCommas("12"), "12"),
-                () -> assertEquals(Main.addCommas("123"), "123"),
-                () -> assertEquals(Main.addCommas("1234"), "1,234"),
-                () -> assertEquals(Main.addCommas("12345"), "12,345"),
-                () -> assertEquals(Main.addCommas("123456"), "123,456"),
-                () -> assertEquals(Main.addCommas("1234567"), "1,234,567"),
-                () -> assertEquals(Main.addCommas("1234567"), "1,234,567"),
-                () -> assertEquals(Main.addCommas("12345678"), "12,345,678")
+                () -> assertEquals("", Main.addCommas("")),
+                () -> assertEquals("1", Main.addCommas("1")),
+                () -> assertEquals("12", Main.addCommas("12")),
+                () -> assertEquals("123", Main.addCommas("123")),
+                () -> assertEquals("1,234", Main.addCommas("1234")),
+                () -> assertEquals("12,345", Main.addCommas("12345")),
+                () -> assertEquals("123,456", Main.addCommas("123456")),
+                () -> assertEquals("1,234,567", Main.addCommas("1234567")),
+                () -> assertEquals("1,234,567", Main.addCommas("1234567")),
+                () -> assertEquals("12,345,678", Main.addCommas("12345678"))
         );
     }
 
