@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.format("Java version: %s%n", getJavaVersion());
-        System.out.format("JUnit version: %s%n", getJUnitVersion());
+//        System.out.format("JUnit version: %s%n", getJUnitVersion());
 
         String rawNumber = "12345678";
         System.out.format("%s with commas: %s%n", rawNumber, addCommas(rawNumber));
@@ -44,8 +44,8 @@ public class Main {
      *
      * @return String containing the JUnit version number.
      */
-    private static String getJUnitVersion() {
-        return org.junit.jupiter.api.Test.class.getPackage().getImplementationVersion();
-    }
+//    private static String getJUnitVersion() {
+//        return org.junit.jupiter.api.Test.class.getPackage().getImplementationVersion();
+//    }
 
 }

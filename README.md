@@ -13,10 +13,10 @@ at every third position, starting from the right. For example, the call of ```ad
 
 | Tool     |  Version |
 |:---------|---------:|
-| Java     | 24.0.0.0 |
-| JUnit    |   5.12.1 |
-| IntelliJ | 2024.3.5 |
-| VSCode   |   1.98.0 |
+| Java     | 24.0.1.0 |
+| JUnit    |   5.13.1 |
+| IntelliJ | 2025.1.2 |
+| VSCode   |  1.101.0 |
 
 ## Change History
 
@@ -27,3 +27,4 @@ at every third position, starting from the right. For example, the call of ```ad
 | 2025-03-18 | upgrade to IntelliJ 2024.3.5 |
 | 2025-03-18 | upgrade to Java 24.0.0.0     |
 | 2025-03-21 | upgrade to JUnit 5.12.1      |
+| 2025-06-13 | upgrade to JUnit 5.13.1      |
