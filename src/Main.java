@@ -5,10 +5,10 @@ public class Main {
 //        System.out.format("JUnit version: %s%n", getJUnitVersion());
 
         String rawNumber = "12345678";
-        System.out.format("%s with commas: %s%n", rawNumber, addCommas(rawNumber));
+        System.out.format("%10s with commas: %15s%n", rawNumber, addCommas(rawNumber));
 
         rawNumber = "345678";
-        System.out.format("%s with commas: %s%n", rawNumber, addCommas(rawNumber));
+        System.out.format("%10s with commas: %15s%n", rawNumber, addCommas(rawNumber));
     }
 
     /** Return a string representation of a number with commas every third digit.
